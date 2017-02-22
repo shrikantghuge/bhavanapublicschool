@@ -1,0 +1,305 @@
+
+
+/* ======================================================= */
+/* CUSTOM THEME CSS */
+/* ======================================================= */
+/* Building your own theme? Add your custom theme CSS here. */
+/* It's a much safer spot to put stuff than trying to overwrite things in styles.css. */
+
+
+#section-navigation, .sf-menu ul li, .sf-menu ul li li {
+ 			background-color: #06b527;	
+ 		}
+ 
+/*  Nav/Logo Minimize Spacing */
+.site-title-wrapper {display: inline-block;}
+.site-title-wrapper h1{margin: 0px;}
+.sf-menu {
+	 margin-bottom: -6px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 0;
+	}
+
+/* Menu Mods */
+
+.sf-menu > li > a strong {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.sf-menu > li:hover a strong {
+    color: #FFF;
+}
+.sf-arrows .sf-with-ul:after {
+  border-top-color: #ECB200;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+.sf-menu li.current-menu-item a strong {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.sf-menu .sub-menu{z-index: 9999;}
+.pptwj ul, .pptwj li{list-style: none !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================= */
+/* #MEDIA QUERIES TEMPLATE */
+/* ======================================================= */
+
+/* Used for copy/pasting - the full theme set is below */
+/* Media Query Breakpoints Stack */ 
+
+
+/* All Mobile Sizes */ 
+@media only screen and (max-width: 767px) {
+	h1.page-caption span {font-size: 14px;}
+	.vc_row-fluid [class*="vc_span"] {margin-left: 0 !important;}
+
+	.highlight-row * {float: none !important; text-align: center !important;}
+	.highlight-button {margin-top: 7px !important;}
+	.highlight-row .wpb_wrapper {padding-right: 25px;}
+		
+	.content-inner {margin-top: 35px;}
+	
+	.site-title > img {width: 95%;}
+	.site-title-wrapper {padding-bottom: 0;padding-top: 23px !important;}
+	
+	#section-header, #section-header .container{overflow: visible;}
+	#section-sub-footer{position: relative; bottom: 0; display: block;}
+	#section-sub-footer .colophon {display: none;}
+	
+	#section-content .container {margin-top: -40px;}
+	.ls-wp-fullwidth-container{margin-top: 75px;}
+	
+	#section-header .container, #section-content .container{border: 0px solid #FFF;}
+	#section-content p, #section-content h1, #section-content .wpcf7, #section-content h2{padding: 0 10px;}
+	.home .page-caption {margin: 10px 0 65px;}
+	
+	h1.page-caption .spacer {display: none;}
+	h1.page-caption span{display: block;}
+	.page-caption {line-height: 4.5rem;}
+	
+	#section-tophat fieldset{margin-bottom: 0px;}
+	#section-tophat .social {
+	    padding-top: 3px;
+	    position: relative;
+	    text-align: right;
+	}
+	#section-tophat .search input.field {
+		background: url("../images/theme/search.png") no-repeat scroll 3px 3px rgba(255, 255, 255, 0.5);
+		height: 24px;
+  		margin: 1px 0px 0 0 !important;
+	}
+	#section-tophat .search input.field:focus {width: 100px;}
+
+	
+	/*  - Tabs & Tour -  */
+	.wpb_tab .wpb_single_image.wpb_content_element {float: none;}
+	.wpb_tabs .wpb_wrapper {padding-right: 15px;}
+	.wpb_tabs li a {font-size: 12px !important;}
+	.wpb_tabs .wpb_wrapper .wpb_content_element {width: 94%;}
+	
+	.tp-caption.very_big_white {
+		  font-size: 28px !important;
+		  font-weight: 600 !important;
+		  line-height: 4px !important;
+	}
+	.tp-caption.big_white {
+		  font-size: 17px !important;
+		  font-weight: 600 !important;
+		  line-height: 4px !important;
+	}
+	.tp-caption a {
+		  font-size: 10px !important;
+		  padding: 4px 10px !important;
+		  line-height: 29px !important;
+	}
+	.tp-caption.large_text {
+		  font-size: 35px !important;
+	}
+	.tp-caption.medium_text {
+		  font-size: 17px !important;
+	}
+	.tp-caption.big_white.sfl {
+	  margin-top: -19px !important;
+	}
+}
+/* /End All Mobile Sizes */ 
+
+
+/* ======================================================= */
+/* CUSTOM -- University -- THEME CSS */
+/* ======================================================= */
+
+/* -  FLAG AND SECTION-FLAGDROPDOWN -  */
+#section-flagdropdown .widget {
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: top;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#section-flagdropdown .textwidget > p {
+  margin-bottom: 0px !important;
+}
+#section-flagdropdown .partial-bottom {
+  display: none;
+}
+#section-flagdropdown a {
+  color: #ECB200;
+}
+#section-flagdropdown h2 a, #section-flagdropdown h2, #section-flagdropdown h3, #section-flagdropdown h4 {
+    color: #FFFFFF !important;
+}
+#section-flagdropdown .textwidget, #section-flagdropdown .widget li {
+  color: #999999;
+}
+#loginform label {color: white;}
+.display_block {display: block !important;}
+.slidingDiv {
+  border-bottom: 5px solid #ECB200;
+  padding: 20px 0 0 0;
+}
+#section-flagdropdown {
+  background-color: #00254E;
+}
+.flag_toggle {
+float: right\9;
+}
+.flag_toggle {
+  float: right;
+  position: relative;
+  right: 28px;
+  top: -17px;
+  visibility: visible;
+  z-index: 500;
+  margin-bottom: -23px;
+}
+.fp_banner_right {
+  display: block;
+  position: relative;
+  right: 10px;
+  text-align: right;
+  
+  top: -10px;
+  z-index: 500;
+}
+.fp_banner_right img {
+  cursor: pointer;
+  margin-left: -80px;
+  margin-top: 27px;
+  min-width: 92px !important;
+  position: absolute;
+  z-index: 400;
+}
+.fp_banner_left {
+  display: block;
+  position: relative;
+  right: 10px;
+  text-align: right;
+  
+  top: -10px;
+  z-index: 500;
+}
+.fp_banner_left img {
+  cursor: pointer;
+  margin-left: -1250px;
+  margin-top: 27px;
+  min-width: 92px !important;
+  position: absolute;
+  z-index: 400;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.flag_toggle {
+		  float: right !important;
+		}
+}
+
+/*  - NAVIGATION AND DROPDOWN -  */
+.sf-menu ul li, .sf-menu ul li li {
+  background-color: rgba(0, 37, 78, 0.9);
+}
+.sf-menu ul li a, .sf-menu ul li li a {
+  color: #FFFFFF !important;
+  text-shadow: 1px 1px 2px #333;
+}
+.sf-menu > li a span {
+  display: block !important;
+  margin-top: -8px;
+  }
+  
+  
+  
+  
+  
+  
+  
+
+/*  - HEADER IMAGES AND HEADER SLIDERS -  */
+.rev_slider_wrapper {
+background-color: #FFFFFF !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+  margin-bottom: 10px !important;
+  margin-top: 25px !important;
+  padding: 9px !important;
+  position: relative;
+}
+#section-slider .container, #section-page-caption .container {
+/*  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+  margin-top: 10px !important;
+  border: 9px solid #FFFFFF;
+  position: relative;*/
+}
+#section-page-caption {
+  background-repeat: no-repeat !important;
+}
+
+
+/*  - 	FEATURED ROW - ICONS, TITLES, TEXT, AND LINK -  UNDER HIGHILIGHT ROW ON DEMO */
+.featured .wpb_content_element {
+  clear: both;
+  margin-bottom: 0px;
+}
+.featured .wpb_heading {
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 4px !important;
+}
+
+
+.featured .wpb_content_element.wpb_single_image img {
+  float: left;
+
+}
+.featured .wpb_wrapper > p {
+  margin-bottom: 0px;
+}
+
+
+/*  ==========  /End Live Search ============== */
+
+
+/*  - CUSTOM CLASSES EXAMPLES -  */
+.featured .wpb_wrapper > p {float: left;}
+.module-center {
+  text-align: center;
+}

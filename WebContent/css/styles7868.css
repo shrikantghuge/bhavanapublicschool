@@ -1,0 +1,196 @@
+/*
+* Styles
+* Copyright 2012, MDNW + Theme Island
+* Skeleton Theme Styles by Charles & Brandon Jones.
+*/  
+
+/* ======================================================= */
+/* #SITE STYLES : Universal Theme Visual Styles */
+/* ======================================================= */
+
+
+/* ======================================================= */
+/* #TOPHAT SECTION */
+/* ======================================================= */
+
+#section-tophat{
+	display: block; 
+	height: 20px; 
+	margin: 0px 0px 0px 0px; 
+	padding: 10px 0px 10px 0px; 
+	position: relative; 
+	z-index: 300;
+	}
+
+#section-tophat .tagline{
+	margin-top: -1px;
+	float: right;
+	}
+ul.social {
+    float: right;
+    margin: 0 0 0 10px;
+}
+ul.social li{
+	display: inline-block; 
+	width: 24px; 
+	height: 24px; 
+	padding: 0 2px 0 0;
+	margin: 0;
+	}	
+
+	
+	
+
+
+/* ======================================================= */
+/* HEADER : NAVIGATION */
+/* ======================================================= */
+#section-navigation {
+  display: block;
+  position: relative;
+  z-index: 200;
+}
+#menu {text-align: left;}
+.sf-menu {
+    float: none;    
+    margin: 30px auto -6px;
+    display: inline-block;
+}
+
+/*  - Navigation Highlight -  */
+#section-navigation{
+	border-bottom: 5px solid #ecb200;
+}
+.sf-menu li.current-menu-item {
+    background-color: #ecb200;
+}
+.sf-arrows .current-menu-item .sf-with-ul:after {
+  border-top-color: #FFFFFF !important;
+}
+
+/* TOP LEVEL STYLES */
+.sf-menu a{border: 0; color: #FFF;}
+.sf-menu li{background-color: transparent; background-color: rgba(0,0,0,0.0); margin-right: 0px}
+.sf-menu li:hover, .sf-menu li.sfHover{background-color: #555; background-color: rgba(255,255,255,0.2);}
+.sf-menu > li > a strong, .sf-menu > li > a {                      
+    color: #FFF;
+    font-weight: 400;
+}
+
+.sf-menu > li a span {
+    display: none !important;
+}
+.sf-menu > li:hover a strong{color: #DDD; }  
+
+/* SUB-LEVEL STYLES */
+.sf-menu ul li, .sf-menu ul li li {
+    background-color: #111; background-color: rgba(0,0,0,0.9);
+}
+.sf-menu ul li:hover {
+    background-color: #222;
+}
+.sf-menu ul li a, .sf-menu ul li li a{color: #FFF;}
+.sf-menu ul li:hover > a {color: #FFF;}	
+.sf-menu ul li {
+/*  - 
+-webkit-border-top: 1px solid rgba(255, 255, 255, 0.05); 
+   -moz-border-top: 1px solid rgba(255, 255, 255, 0.05);
+     -o-border-top: 1px solid rgba(255, 255, 255, 0.05);
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+ -  */
+	-webkit-border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+	   -moz-border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+	     -o-border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+} 
+.sf-menu li li:first-child, .sf-menu .sub-menu li:first-child {  
+    border-top: none;  
+}  
+.sf-menu li li:last-child {  
+	border-bottom: none;  
+} 
+
+
+
+
+/* ======================================================= */
+/* HEADER : RESPONSIVE HEADER & NAVIGATION */
+/* ======================================================= */
+#responsive-nav{display: none; float: right; z-index: 999; position: fixed; top: 0px; left: 0px; width: 100% !important;}
+#responsive-nav ul{margin: 56px 0 0 5px; border-radius: 3px; box-shadow: 0 0 400px 300px black; z-index: 100;}
+#responsive-nav button{z-index: 101;}
+#responsive-nav ul ul{margin: 0;}
+#responsive-nav li{clear: both;} 
+
+@media only screen and (max-width: 767px) {	
+	
+	#section-sub-footer *,	#section-header *{float: none; text-align: center;}
+	
+	#section-tophat .container, #section-tophat .sixteen{width: 100%; float: right;}
+	#section-tophat{ height: 34px;}
+	
+	header .navigation{margin-top: 10px;}	
+	ul.sf-menu { display: none;}  
+	
+	#responsive-nav { display: inline-block; }   	
+	
+	#section-tophat .tagline{display: none;}		
+	#section-tophat .social {float: right; text-align: right; padding: 1px 5px;}
+		
+	ul.social li{height: 24px !important; width: 24px !important;}
+	
+	#section-header{display: inline-block; padding-bottom: 20px;}
+	
+	.logospace h1 {
+	margin: 30px auto 0;
+	text-align: center;
+	width: 90%;}
+	
+    .logospace span {
+	margin: 0 auto 20px;
+	text-align: center;
+	width: 90%;}
+	
+}	
+
+/* ======================================================= */
+/* MEDIA QUERIES */
+/* ======================================================= */
+
+/* Fixes for 960 - 1280 stuff (USQUARE) */
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+}
+	
+/* Large devices only | DEVICES ABOVE 959*/
+@media only screen and (min-width: 959px) {	
+}
+
+/* Tablet Portrait size to standard 960 | DEVICES 768 <--> 959 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* All Mobile Sizes | DEVICES < 767px */
+@media only screen and (max-width: 767px) {	
+	.container{overflow: hidden;}
+	.arrowsCon{display: none;}	
+	.et_lb_module {margin: 0 0 20px 0 !important;}
+}
+
+/* Mobile Landscape Size to Tablet Portrait | DEVICES 480 <--> 767 */
+@media only screen and (min-width: 480) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size | DEVICES < 479px */
+@media only screen and (max-width: 479px) {
+	
+	#gallery-1 .gallery-item{width: 90%;}		
+	.gallery-columns-2 .gallery-item {
+		width:45% !important;
+		padding-right:4% !important;
+	}
+	.gallery-columns-2 .gallery-item img {
+		width:100% !important;
+		height:auto !important;
+	}
+			
+}

@@ -1,0 +1,28 @@
+/*
+	Theme Name: Campus
+	Theme URI: http://www.campus.themeisland.net
+	Description: A premium responsive theme for WordPress
+	Author: Charles & Brandon Jones
+	Author URI: http://www.theme-island.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 3.1.1.3
+	Tags: white, two-columns, flexible-width, featured-images
+	
+	All stylesheets are stored in the /assets/stylesheets folder.
+	
+*/
+
+#grid-filter, #grid-filter a.button, .highlight-row span, .page-caption, .sf-menu > li > a strong, .sf-menu ul li a, .sf-menu ul li li a, .tk-museo-slab, .wpb_content_element .wpb_accordion_header a, .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a, h1, h1 span, h2, h3, h4, h5 {
+font-family: myFirstFont;
+}
+@font-face
+{
+font-family: myFirstFont;
+
+}
+#section-footer {
+margin-top: 0px;
+background-color: #584d46 !important;
+color: #fff;
+}

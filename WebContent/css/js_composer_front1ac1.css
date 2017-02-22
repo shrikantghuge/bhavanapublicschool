@@ -1,0 +1,87 @@
+/** js_composer_front.css **/
+
+.wpb_row {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Grid with fluid columns */
+.vc_row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+.vc_row-fluid:before,
+.vc_row-fluid:after {
+  display: table;
+  content: "";
+}
+.vc_row-fluid:after {
+  clear: both;
+}
+.vc_row-fluid [class*="vc_span"] {
+  display: block;
+  width: 100%;
+  min-height: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2.5%;
+}
+.vc_row-fluid [class*="vc_span"]:first-child {
+  margin-left: 0;
+}
+.vc_row-fluid .vc_span12,
+.wpb_teaser_grid.wpb_carousel .vc_span12 {
+  width: 100%;
+}
+.vc_row-fluid .vc_span11 {
+  width: 91.45833333333334%;
+}
+.vc_row-fluid .vc_span10 {
+  width: 82.91666666666667%;
+}
+.vc_row-fluid .vc_span9 {
+  width: 74.375%;
+}
+.vc_row-fluid .vc_span8 {
+  width: 65.83333333333334%;
+}
+.vc_row-fluid .vc_span7 {
+  width: 57.29166666666667%;
+}
+.vc_row-fluid .vc_span6,
+.wpb_teaser_grid.wpb_carousel .vc_span6 {
+  width: 48.75%;
+}
+.vc_row-fluid .vc_span5 {
+  width: 40.208333333333336%;
+}
+.vc_row-fluid .vc_span4,
+.wpb_teaser_grid.wpb_carousel .vc_span4 {
+  width: 31.666666666666668%;
+}
+.vc_row-fluid .vc_span3,
+.wpb_teaser_grid.wpb_carousel .vc_span3 {
+  width: 23.125%;
+}
+.vc_row-fluid .vc_span2 {
+  width: 14.583333333333334%;
+}
+.vc_row-fluid .vc_span1 {
+  width: 6.041666666666667%;
+}
+.wpb_row > .wpb_column > .wpb_wrapper .wpb_content_element:last-child {
+  margin-bottom: 0;
+}
+
+/* Make all grid-sized elements block level again */
+@media (max-width: 480px) {
+  .vc_responsive div.vc_row-fluid div[class*="vc_span"] {
+    float: none;
+    display: block;
+    width: auto;
+    margin-left: 0;
+  }
+}
