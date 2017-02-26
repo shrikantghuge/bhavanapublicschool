@@ -11,4 +11,25 @@ public class MainConroller {
 		System.out.println("First page is initializing ");
 		return "index";		
 	}
+	@RequestMapping("gallery")
+	public String galleryPageResolver(){
+		System.out.println("gallery getting loaded");
+		return "gallery";
+	}
+	@RequestMapping("extra")
+	public String extraPageResolver(){
+		System.out.println("gallery getting loaded");
+		return "extra";
+	}
+	@RequestMapping("facilities")
+	public String facilitiesPageResolver(){
+		System.out.println("gallery getting loaded");
+		return "facilities";
+	}
+	@RequestMapping("aboutus")
+	public String aboutusPageResolver(){
+		System.out.println("gallery getting loaded");
+		return "aboutus";
+	}
+	
 }

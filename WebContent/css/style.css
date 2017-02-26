@@ -1,0 +1,132 @@
+.school-logo{
+	position: absolute;
+    z-index: 400;
+    width: 12%;
+    height: 138px;
+}
+
+.pic-logo{
+	position: absolute;
+    z-index: 401;
+    width: 11%;
+    height: 137px;
+}
+
+.pic-container{
+	padding-left: 88%;
+}
+
+.main-containt{
+	font-size: 14px;
+	padding-top: 10%;
+}
+#section-tophat {
+			background-image: url('');
+			background-color: #e1a709;
+	}			
+	/* Colored Text */
+a, a span, 
+#section-tophat a, 
+#section-footer a,
+#section-flagdropdown a,
+.highlight-row h2 a,
+.customisable, .customisable:link, .customisable:visited, .customisable:hover, .customisable:focus, .customisable:active, .customisable-highlight:hover, .customisable-highlight:focus, a:hover .customisable-highlight, a:focus .customisable-highlight
+{	
+	color: #ECB200; 
+}
+/* Colored BG Elements that need forced white color */
+.sf-menu > li:hover > a:hover,
+.sf-menu > li:hover span,
+.sf-menu > li:hover strong,
+.sf-menu li li:hover> a,
+.sf-menu.light ul li:hover > a,
+.widget_categories li a,
+.widget_categories li,
+.widget_archives li a{	
+	color: white !important;
+}			
+/* Border Elements */
+#section-footer {
+	border-top: 2px solid #6b6b61;	
+}		
+/*  - Navigation Highlights -  */
+#section-navigation{
+	border-bottom: 5px solid #ECB200;
+}
+hr.page-title-hr, 
+.wpb_tabs_nav, 
+.wpb_wrapper .wpb_tabs hr, 
+.wpb_wrapper .wpb_tour hr, 
+#section-flagdropdown hr,
+.slidingDiv,
+#section-footer hr {
+	border-bottom-color: #ECB200 !important;
+}
+.sf-arrows .sf-with-ul:after {
+	border-top-color: #ECB200;
+}		
+header{text-align: center;}
+.site-title-wrapper {
+    float: none;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+}
+#menu{clear:both; margin: 20px auto 0; float: none; text-align: center;}		
+h1.page-title, .page-title-hr{display: none;}		
+/*  - STANDARD - S/C/P -  */
+.page-template-template-blog-php .secondary-sidebar {float: left;}		
+body{font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}		
+dfsdfe.normal-width .content > div {
+  width: 100%;
+}
+
+.top1{ background:#fffdfa; margin-bottom:0px; padding:0; position:fixed; width:100%; z-index:1;  }
+
+/* about us start */
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0}
+
+
+body{ background:#f7f7f7;margin:0; color:#7a797e; padding:0; position:relative; line-height:1.5em; text-align:left }
+#main_width{width:1000px; height:auto; background:#fff; margin:0px auto ; padding:150px 0px}
+
+
+
+.clearfix {
+     visibility: hidden;
+     font-size: 0;
+     content: "";
+     clear: both;
+     height: 0;
+	 overflow:hidden;
+	 overflow-y:hidden;
+     }
+	 
+	 
+.top{ background:#fffdfa;  position:fixed; width:100%; z-index:1000;  }
+
+
+a{text-decoration:none; color:#333333; text-decoration:underline; }
+a:hover{color:#990000;}
+.frame{width:310px; height:220px;margin:10px 0px; z-index:-1}
+
+strong{color:#616161}
+h1{font-family:"Trebuchet MS";  font-size:18px; color:#333333; padding:10px 10px 10px 10px; text-transform:uppercase; } 
+h4{font-family:"Trebuchet MS";  font-size:14px; color:#cd5927; padding:10px 10px 10px 10px;}
+ul{margin:10px 20px}
+li{list-style:none;  margin:0px 20px; padding:0px 0px; list-style-image:url(../images/arrow_round.png)}
+i{color:#0088ac}
+p{padding:10px 10px}
+
+#section-footer{
+	    margin-top: 3%;
+}
+/* About us : END */
+
+
+
+
+

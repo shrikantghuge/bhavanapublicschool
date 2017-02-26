@@ -6,29 +6,29 @@
 	<title>Bhavana Public School</title>	
 	
 		<!-- element positioning -->
-<link rel='stylesheet' id='skeleton-css'  href='../css/skeleton7868.css?ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='css/skeleton7868.css?ver=3.9' type='text/css' media='all' />
 
 <!--Submenus and upper menu details -->
-<link rel='stylesheet' id='superfish-css'  href='../css/superfish7868.css?ver=3.9' type='text/css' media='all' />
-<link rel='stylesheet' id='base-theme-stylesheet-css'  href='../css/styles7868.css?ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='css/superfish7868.css?ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='base-theme-stylesheet-css'  href='css/styles7868.css?ver=3.9' type='text/css' media='all' />
 
 <!-- font type and size-->
-<link rel='stylesheet' id='type-stylesheet-css'  href='../css/typography7868.css?ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='type-stylesheet-css'  href='css/typography7868.css?ver=3.9' type='text/css' media='all' />
 
 <!-- Cell padding and slits -->
-<link rel='stylesheet' id='theme-stylesheet-css'  href='../css/theme7868.css?ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-stylesheet-css'  href='css/theme7868.css?ver=3.9' type='text/css' media='all' />
 
 <!-- color and effects -->
-<link rel='stylesheet' id='base-stylesheet-css'  href='../css/style7868.css?ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='base-stylesheet-css'  href='css/style7868.css?ver=3.9' type='text/css' media='all' />
 
-<link href="css/main-style.css" rel="stylesheet" type="text/css" />
+<link href="gallery/css/main-style.css" rel="stylesheet" type="text/css" />
 
 
 <!-- Gallary files -->
-<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
-<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/lightbox-2.6.min.js"></script>	
+<link rel="stylesheet" type="text/css" href="gallery/css/style.css" media="all" />
+<link rel="stylesheet" href="gallery/css/lightbox.css" media="screen"/>
+<script src="gallery/js/jquery-1.10.2.min.js"></script>
+	<script src="gallery/js/lightbox-2.6.min.js"></script>	
 	
 	
 
@@ -159,12 +159,12 @@ dfsdfe.normal-width .content > div {
 
 		    	<div class="fp_banner_right" >
 		        	<div class="show_hide flag_toggle" >
-		        		<img width="92px" height="97px" src="../images/BhavanaTai.png" />
+		        		<img width="92px" height="97px" src="images/BhavanaTai.png" />
 		            </div>
 		        </div>    
                  <div class="fp_banner_left" >
 		        	<div class="show_hide flag_toggle" >
-		        		<img width="100px" height="97px" src="../images/Logo.png" />
+		        		<img width="100px" height="97px" src="images/Logo.png" />
 		            </div>
 		        </div>				
 		        <!-- /End Banner -->
@@ -198,7 +198,7 @@ dfsdfe.normal-width .content > div {
 				<!-- Branding -->
 				<div class="site-title-wrapper">
 					<a href="index.html" title="Bhavana Public School">
-						<h1 class="site-title">							<img id="logotype" src="../images/Header.png" alt="Bhavana Public School" />
+						<h1 class="site-title">							<img id="logotype" src="images/Header.png" alt="Bhavana Public School" />
 	        				</h1>
 		         							</a>
 				</div>
@@ -219,24 +219,24 @@ dfsdfe.normal-width .content > div {
 		
 		<!-- DEFAULT NAVIGATION -->
 		<ul id="menu-main-menu" class="sf-menu">
-		        <li title="About Us" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../aboutus/index.html"><strong>About Us</strong></a></li>
-                <li title="Admission" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../pdf/application.pdf"><strong>Admission</strong></a>
+		        <li title="About Us" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus/index.html"><strong>About Us</strong></a></li>
+                <li title="Admission" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="pdf/application.pdf"><strong>Admission</strong></a>
                     <ul class="sub-menu">
-	                    <li title="Rules & Regulations" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../pdf/rules.pdf" target="_blank">Rules &#038; Regulations</a></li>
-	                    <li title="Application" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../pdf/application.pdf" target="_blank">Application</a></li>
+	                    <li title="Rules & Regulations" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pdf/rules.pdf" target="_blank">Rules &#038; Regulations</a></li>
+	                    <li title="Application" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="pdf/application.pdf" target="_blank">Application</a></li>
 					</ul>
 				</li>	
 					
 					
-                <li title="Extra Curricular" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="../extra/index.html"><strong>Extra Curricular</strong></a>
+                <li title="Extra Curricular" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="extra/index.html"><strong>Extra Curricular</strong></a>
                     <ul class="sub-menu">
 	                   <li title="TATA Class Edge" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.tataclassedge.com/" target="_blank">TATA Class Edge</a></li>
-	                    <li title="Sports & Games" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../extra/index.html">Sports &#038; Games</a></li>
+	                    <li title="Sports & Games" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="extra/index.html">Sports &#038; Games</a></li>
 	                </ul>
 				</li>
-				<li title="News & Events" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../newsnevents/index.html"><strong>News &#038; Events </strong></a></li>
-				<li title="Contact Us" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../contactus/index.html"><strong>Contact Us</strong></a></li>
-				<li title="Facilities" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="../facilities/index.html"><strong>Facilities</strong></a></li>
+				<li title="News & Events" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="newsnevents/index.html"><strong>News &#038; Events </strong></a></li>
+				<li title="Contact Us" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="contactus/index.html"><strong>Contact Us</strong></a></li>
+				<li title="Facilities" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="facilities/index.html"><strong>Facilities</strong></a></li>
 		</ul>		
 
 					 
@@ -468,7 +468,7 @@ dfsdfe.normal-width .content > div {
 		<div class="four columns alpha">
 		<div id="text-7" class="widget widget_text">			<div class="textwidget"><h2 style="color:#ECB200;">Admissions</h2>
 <hr>
-Simple steps to take Admission at Bhavana Public School.<a style="color: #ecb200;" href="../pdf/application.pdf" target="_blank">Get Details here.</a></p>
+Simple steps to take Admission at Bhavana Public School.<a style="color: #ecb200;" href="pdf/application.pdf" target="_blank">Get Details here.</a></p>
 <h2>
 </div>
 		</div>		</div>
