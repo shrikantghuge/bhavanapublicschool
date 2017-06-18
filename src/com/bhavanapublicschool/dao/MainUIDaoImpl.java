@@ -8,6 +8,7 @@ import javax.sql.DataSource;
 
 import org.apache.log4j.Logger;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.support.rowset.SqlRowSet;
 
 import com.bhavanapublicschool.bean.Facilities;
 import com.bhavanapublicschool.bean.GalleryBean;
@@ -24,8 +25,9 @@ public class MainUIDaoImpl implements MainUIDao{
 	
 	@Override
 	public List<GalleryBean> getSliderImages() throws SQLException {
-		List<Map<String, Object>> result = jdbcTemplate.queryForList("select * form where type='SLIDER'");
-		LOGGER.info("The size of result list is "+result.size());
+		SqlRowSet result = jdbcTemplate.queryForRowSet("select * form where type=\"SLIDER\"");
+		
+		LOGGER.info("The size of result list is "+result);
 		return null;
 	}
 

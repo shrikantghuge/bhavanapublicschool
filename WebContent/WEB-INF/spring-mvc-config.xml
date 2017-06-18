@@ -11,7 +11,15 @@
 	<context:component-scan base-package="com.bhavanapublicschool.service" />	
 	 <context:annotation-config/>
 	 
-	
+	<bean id="dbPoolDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" >
+	   <property name="url" value="jdbc:mysql://162.222.226.38:3306/bhavaae3_bpsprd" />
+	   <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+	   <property name="username" value="bhavaae3_shri" />
+	   <property name="password" value="India$360" />
+	   <property name="removeAbandoned" value="true"/>
+	   <property name="initialSize" value="2" />
+	   <property name="maxActive" value="10" />
+	</bean>
 	
 	<bean id="MainUIDaoBean" class="com.bhavanapublicschool.dao.MainUIDaoImpl">
 	    <property name="dataSource" ref="dbPoolDataSource"/>
