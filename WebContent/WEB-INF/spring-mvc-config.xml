@@ -8,6 +8,14 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd ">
 
-	<context:component-scan base-package="com.bhavanapublicschool.service" />
+	<context:component-scan base-package="com.bhavanapublicschool.service" />	
+	 <context:annotation-config/>
+	 
+	
+	
+	<bean id="MainUIDaoBean" class="com.bhavanapublicschool.dao.MainUIDaoImpl">
+	    <property name="dataSource" ref="dbPoolDataSource"/>
+	 </bean>
+
 
 </beans>

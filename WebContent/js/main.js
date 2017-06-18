@@ -24,4 +24,13 @@ $(document).ready(function(){
 			}
 		});
 	});
+	$(".picture_gallery").click(function(){
+		console.log("picture gallery");
+		$.ajax({
+			url: "gallery",			
+			success:function(response){				
+				$("#main-containt").html(response)
+			}
+		});
+	});
 });

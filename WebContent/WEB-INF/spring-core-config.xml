@@ -24,6 +24,9 @@
 	<mvc:resources mapping="/css/**" location="/css/" />
 	<mvc:resources mapping="/pdf/**" location="/pdf/" />	
 	<mvc:resources mapping="/images/**" location="/images/" />
+	<mvc:resources mapping="/gallery/images/**" location="/gallery/images/" />
+	<mvc:resources mapping="/gallery/css/**" location="/" />
+	<mvc:resources mapping="/gallery/js/**" location="/" />
 	<mvc:annotation-driven />
 
 </beans>
