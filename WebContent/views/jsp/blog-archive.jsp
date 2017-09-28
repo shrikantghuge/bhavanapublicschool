@@ -39,7 +39,7 @@
     <!-- Default Theme css file -->
     <link id="switcher" href="css/themes/default-theme.css" rel="stylesheet">
     <!-- Main structure css file -->
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
    
     <!-- Google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>   

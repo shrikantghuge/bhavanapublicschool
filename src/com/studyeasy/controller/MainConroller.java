@@ -30,6 +30,42 @@ public class MainConroller {
 		}*/
 		return "index";		
 	}
+	
+	/*temp arrengment for the website : start*/
+	@RequestMapping("course-archive.html")
+	public String viewResolverTemp1(){
+		LOGGER.info("gallery getting loaded");
+		return "course-archive";
+	}
+	@RequestMapping("events-archive.html")
+	public String viewResolverTemp2(){
+		LOGGER.info("gallery getting loaded");
+		return "events-archive";
+	}
+	@RequestMapping("gallery.html")
+	public String viewResolverTemp3(){
+		LOGGER.info("gallery getting loaded");
+		return "gallery";
+	}
+	@RequestMapping("blog-archive.html")
+	public String viewResolverTemp4(){
+		LOGGER.info("gallery getting loaded");
+		return "blog-archive";
+	}
+	@RequestMapping("contact.html")
+	public String viewResolverTemp5(){
+		LOGGER.info("gallery getting loaded");
+		return "contact";
+	}
+	@RequestMapping("index.html")
+	public String viewResolverTemp6(){
+		LOGGER.info("gallery getting loaded");
+		return "index";
+	}
+	
+	/*temp arrengment for the website : end*/
+	
+	
 	@RequestMapping("gallery")
 	public String galleryPageResolver(){
 		LOGGER.info("gallery getting loaded");
