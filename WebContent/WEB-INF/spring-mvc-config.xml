@@ -8,10 +8,10 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd ">
 
-	<context:component-scan base-package="com.bhavanapublicschool.service" />	
+	<context:component-scan base-package="com.studyeasy.service" />	
 	 <context:annotation-config/>
 	 
-	<bean id="dbPoolDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" >
+	<!-- <bean id="dbPoolDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" >
 	   <property name="url" value="jdbc:mysql://162.222.226.38:3306/bhavaae3_bpsprd" />
 	   <property name="driverClassName" value="com.mysql.jdbc.Driver" />
 	   <property name="username" value="bhavaae3_shri" />
@@ -19,11 +19,20 @@
 	   <property name="removeAbandoned" value="true"/>
 	   <property name="initialSize" value="2" />
 	   <property name="maxActive" value="10" />
+	</bean> -->
+	<bean id="dbPoolDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" >
+	   <property name="url" value="jdbc:mysql://localhost:3306/bps_school" />
+	   <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+	   <property name="username" value="root" />
+	   <property name="password" value="root" />
+	   <property name="removeAbandoned" value="true"/>
+	   <property name="initialSize" value="2" />
+	   <property name="maxActive" value="10" />
 	</bean>
 	
-	<bean id="MainUIDaoBean" class="com.bhavanapublicschool.dao.MainUIDaoImpl">
+	<!-- <bean id="MainUIDaoBean" class="com.studyeasy.dao.MainUIDaoImpl">
 	    <property name="dataSource" ref="dbPoolDataSource"/>
-	 </bean>
+	 </bean> -->
 
 
 </beans>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="bhavanapublicschool">
+    <wb-module deploy-name="studyeasy">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
-        <property name="context-root" value="bhavanapublicschool"/>
-        <property name="java-output-path" value="/bhavanapublicschool/bin"/>
+        <property name="context-root" value="studyeasy"/>
+        <property name="java-output-path" value="/studyeasy/bin"/>
     </wb-module>
 </project-modules>
