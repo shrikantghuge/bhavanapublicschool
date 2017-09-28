@@ -30,9 +30,9 @@
 	   <property name="maxActive" value="10" />
 	</bean>
 	
-	<!-- <bean id="MainUIDaoBean" class="com.studyeasy.dao.MainUIDaoImpl">
+	<bean id="MainUIDaoBean" class="com.studyeasy.dao.MainUIDaoImpl">
 	    <property name="dataSource" ref="dbPoolDataSource"/>
-	 </bean> -->
+	 </bean>
 
 
 </beans>
